@@ -1,4 +1,3 @@
-const fs = require ("fs");
 const Sequelize = require('sequelize');
 const sequelize = new Sequelize("sqlite:quizzes.sqlite",{logging: false});
 //Nombre del fichero donde se guardan las preguntas.
